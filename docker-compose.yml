@@ -1,0 +1,21 @@
+services:
+  postgres:
+    image: postgres:18
+    container_name: moviedb
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: movie
+      POSTGRES_PASSWORD: movie_ps
+      POSTGRES_DB: moviedb
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./infrastructure/postgres/init.sql:/docker-entrypoint-initdb.d/init.sql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U movie -d moviedb"]
+      interval: 3s
+      timeout: 30s
+      retries: 10
+
+volumes:
+  pgdata:
