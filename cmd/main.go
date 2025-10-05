@@ -73,4 +73,11 @@ func main() {
 	rand.Seed(time.Now().UnixNano())
 
 	createDirectors()
+
+	// TODO:
+	/* for db: https://pkg.go.dev/github.com/jackc/pgx/v5/pgxpool
+	   🥇 Most Common Stack Today (Modern, Idiomatic Go)
+	   1. database/sql + pgx (the new standard)
+	   This is now the most common and recommended way.
+	*/
 }
