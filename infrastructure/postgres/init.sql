@@ -51,6 +51,19 @@ create table movies_actors (
     primary key (movie_id, actor_id)
 );
 
+create table critics (
+    id uuid default gen_random_uuid() primary key,
+    first text,
+    last text
+);
+
+create table movie_reviews (
+    id uuid default gen_random_uuid() primary key,
+    movie_id uuid references movies (id),
+    user_id uuid references critics (id),
+    stars int check (stars > 0 and stars < 6),
+    review text
+);
 
 -- Seed:
 -- Directors
