@@ -79,16 +79,86 @@ select * from actors;
 -- List all movies along with their total revenue (domestic + international).
 -- List all actors and the movies they appeared in.
 
-/*
-### Filtering with joins
-Find all movies directed by “Christopher Nolan.”
-Find all actors who starred in movies with a PG-13 rating.
-Find all movies where domestic takings exceeded 300 million.
-Find all directors who have directed more than one movie.
-List movies where at least one actor’s first name is “Leonardo.”
 
+
+-- Find actors who appeared in movies directed by “Quentin Tarantino.”
+select 
+	concat_ws(' ', first_name, last_name),
+	m.movie_name
+from actors a
+join movies_actors ma
+	on a.id = ma.actor_id
+join movies m
+	on m.id = ma.movie_id
+where m.director_id = (
+	select id from directors where first_name = 'Quentin' and last_name = 'Tarantino'
+)
+
+
+-- ### Filtering with joins
+
+-- Find all movies directed by “Christopher Nolan.”
+select * from movies m
+join directors d 
+	on m.director_id = d.id
+where d.first_name = 'Christopher' and d.last_name = 'Nolan';
+
+-- Find all actors who starred in movies with a PG-13 rating.
+select * from actors a
+join movies_actors ma
+	on a.id = ma.actor_id
+join movies m on ma.movie_id = m.id
+where age_certificate = 'PG-13';
+
+-- Find all movies where domestic takings exceeded 300 million.
+select * from movies m
+join movie_revenues mr on m.id = mr.movie_id
+where mr.domestic_takings > 300000000.00;
+
+
+-- Find all directors who have directed more than one movie.
+SELECT 
+	concat_ws(' ', d.first_name, d.last_name) as director_name,
+	count(m.id) as total_movies
+FROM directors d
+JOIN movies m ON d.id = m.director_id
+GROUP BY director_name
+HAVING count(m.id) > 1;
+
+-- OR this
+SELECT 
+    d.id,
+    concat_ws(' ', d.first_name, d.last_name) AS director_name,
+    count(m.id) AS total_movies
+FROM directors d
+JOIN movies m ON d.id = m.director_id
+-- safer to group by the id as well:
+GROUP BY d.id, d.first_name, d.last_name
+HAVING count(m.id) > 1;
+
+
+-- List movies where at least one actor’s first name is “Leonardo.”
+select distinct movie_name from movies m -- distinct in case there are 2 leonardos in a movie
+join movies_actors ma on m.id = ma.movie_id
+join actors a on ma.actor_id = a.id
+where a.first_name = 'Leonardo'
+
+
+/*
 ### Subqueries and advanced queries
 Find actors who appeared in movies directed by “Quentin Tarantino.”
+select 
+	concat_ws(' ', first_name, last_name),
+	m.movie_name
+from actors a
+join movies_actors ma
+	on a.id = ma.actor_id
+join movies m
+	on m.id = ma.movie_id
+where m.director_id = (
+	select id from directors where first_name = 'Quentin' and last_name = 'Tarantino'
+)
+
 Find the movie with the highest total revenue.
 List all directors whose movies have collectively earned more than 500 million domestically.
 List actors who have appeared in more than one movie.

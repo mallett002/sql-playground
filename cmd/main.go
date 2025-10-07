@@ -1,12 +1,16 @@
 package main
 
 import (
-	"fmt"
+	// "fmt"
+	// "go/format"
+	"context"
+	"log"
 	"math/rand"
 	"time"
 
 	random "github.com/Pallinder/go-randomdata"
 	"github.com/google/uuid"
+	"github.com/jackc/pgx/v5/pgxpool"
 )
 
 type Director struct {
@@ -62,22 +66,43 @@ func createRandomDirector() Director {
 	}
 }
 
-func createDirectors() {
-	dir := createRandomDirector()
+func createRandomDirectors(count int) []Director {
+	var directors []Director = make([]Director, count, count)
 
-	fmt.Println(dir)
+	for i := 0; i < count; i++ {
+		dir := createRandomDirector()
+
+		directors = append(directors, dir)
+	}
+
+	return directors
+}
+
+func insertDirectors(pool *pgxpool.Pool, dirs []Director) err Error {
+
+    return nil
 }
 
 func main() {
 	// Seed the random generator (do this once per program, not per call ideally)
 	rand.Seed(time.Now().UnixNano())
 
-	createDirectors()
+	// Connect to DB
+	pool, err := pgxpool.New(context.Background(), "postgres://movie:movie_ps@localhost:5432/moviedb")
 
-	// TODO:
-	/* for db: https://pkg.go.dev/github.com/jackc/pgx/v5/pgxpool
-	   🥇 Most Common Stack Today (Modern, Idiomatic Go)
-	   1. database/sql + pgx (the new standard)
-	   This is now the most common and recommended way.
-	*/
+	if err != nil {
+		log.Fatalf("unable to connect to database: %v", err)
+	}
+
+	defer pool.Close()
+
+	var directors []Director = createRandomDirectors(20)
+
+	// Insert them into the DB
+	if err := insertDirectors(pool, directors); err != nil {
+		log.Fatalf("failed to insert directors: %v", err)
+	}
+
+	log.Println("Inserted directors successfully!")
+
 }
