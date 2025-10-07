@@ -1,8 +1,6 @@
 package main
 
 import (
-	// "fmt"
-	// "go/format"
 	"context"
 	"log"
 	"math/rand"
@@ -67,7 +65,7 @@ func createRandomDirector() Director {
 }
 
 func createRandomDirectors(count int) []Director {
-	var directors []Director = make([]Director, count, count)
+	var directors []Director = make([]Director, 0, count)
 
 	for i := 0; i < count; i++ {
 		dir := createRandomDirector()
@@ -78,9 +76,29 @@ func createRandomDirectors(count int) []Director {
 	return directors
 }
 
-func insertDirectors(pool *pgxpool.Pool, dirs []Director) err Error {
+// DB updates -----------------------------------------------------------------------
+func insertDirectors(pool *pgxpool.Pool, dirs []Director) error {
+	// Prepare the SQL insert statement
+	sql := `
+		INSERT INTO directors (id, first_name, last_name, date_of_birth, nationality)
+		VALUES ($1, $2, $3, $4, $5)
+	`
 
-    return nil
+	for _, d := range dirs {
+		_, err := pool.Exec(context.Background(), sql,
+			d.ID,
+			d.FirstName,
+			d.LastName,
+			d.DateOfBirth,
+			d.Nationality,
+		)
+
+		if err != nil {
+			return err
+		}
+	}
+
+	return nil
 }
 
 func main() {
