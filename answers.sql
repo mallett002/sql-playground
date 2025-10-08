@@ -179,7 +179,28 @@ join highest_rev hr on m.id = hr.movie_id
 WHERE hr.total_rev = (SELECT MAX(total_rev) FROM highest_rev); -- added this in case of ties. Was doing the limit 1 in cte
 
 
--- List all directors whose movies have collectively earned more than 500 million domestically.
+-- List all directors whose movies have collectively earned more than 500 million domestically & internationally.
+-- get grouping of directors with total earnings:
+with dir_earnings as (
+	select 
+		d.id,
+		sum(mr.domestic_takings + mr.international_takings) as total_earnings
+	from directors d
+	join movies m on d.id = m.director_id
+	join movie_revenues mr on m.id = mr.movie_id
+	group by d.id
+)
+-- select the directors from that grouping where total_earnings > x
+select 
+	concat_ws(' ', d.first_name, d.last_name) as director_name,
+	de.total_earnings
+from directors d
+join dir_earnings de
+	on d.id = de.id
+where de.total_earnings > 1000.00 -- 1000 here bc none have 500 mil in my data
+
+
+
 -- List actors who have appeared in more than one movie.
 -- For each movie, show a comma-separated list of actors in it.
 

@@ -37,7 +37,7 @@ select * from movies_actors;
 -- ### Subqueries and advanced queries
 -- Find actors who appeared in movies directed by “Quentin Tarantino.”
 -- Find the movie with the highest total revenue.
--- List all directors whose movies have collectively earned more than 500 million domestically.
+-- List all directors whose movies have collectively earned more than 500 million domestically & internationally.
 -- List actors who have appeared in more than one movie.
 -- For each movie, show a comma-separated list of actors in it.
 
