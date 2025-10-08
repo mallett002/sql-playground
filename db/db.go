@@ -7,13 +7,13 @@ import (
 	"github.com/mallett002/sql-playground/factories"
 )
 
-func InsertDirectors(pool *pgxpool.Pool, dirs []factories.Director) error {
+func InsertDirectors(pool *pgxpool.Pool, dirs *[]factories.Director) error {
 	sql := `
 		INSERT INTO directors (id, first_name, last_name, date_of_birth, nationality)
 		VALUES ($1, $2, $3, $4, $5)
 	`
 
-	for _, d := range dirs {
+	for _, d := range *dirs {
 		_, err := pool.Exec(context.Background(), sql,
 			d.ID,
 			d.FirstName,

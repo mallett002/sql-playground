@@ -25,7 +25,7 @@ func main() {
 	defer pool.Close()
 
 	// Create directors
-	var directors []factories.Director = factories.CreateRandomDirectors(20)
+	var directors *[]factories.Director = factories.CreateRandomDirectors(20)
 
 	if err := db.InsertDirectors(pool, directors); err != nil {
 		log.Fatalf("failed to insert directors: %v", err)

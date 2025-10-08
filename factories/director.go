@@ -49,7 +49,7 @@ func createRandomDirector() Director {
 	}
 }
 
-func CreateRandomDirectors(count int) []Director {
+func CreateRandomDirectors(count int) *[]Director {
 	var directors []Director = make([]Director, 0, count)
 
 	for i := 0; i < count; i++ {
@@ -58,5 +58,5 @@ func CreateRandomDirectors(count int) []Director {
 		directors = append(directors, dir)
 	}
 
-	return directors
+	return &directors
 }
