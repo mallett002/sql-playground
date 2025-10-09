@@ -34,5 +34,12 @@ func main() {
 	log.Println("Inserted directors successfully!")
 
 	// Create movies
+	var movies *[]factories.Movie = factories.CreateRandomMovies(directors, 500)
+
+	if err := db.InsertMovies(pool, movies); err != nil {
+		log.Fatalf("failed to insert movies: %v", err)
+	}
+
+	log.Println("Inserted movies successfully!")
 
 }

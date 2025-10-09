@@ -44,7 +44,7 @@ func createRandomDirector() Director {
 		ID:          uuid.New(),
 		FirstName:   random.FirstName(rand.Intn(2)),
 		LastName:    random.LastName(),
-		DateOfBirth: randomDateOfBirth(),
+		DateOfBirth: randomDate(),
 		Nationality: pickRandomNationality(),
 	}
 }

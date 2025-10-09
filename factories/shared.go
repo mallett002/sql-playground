@@ -5,7 +5,7 @@ import (
 	"time"
 )
 
-func randomDateOfBirth() time.Time {
+func randomDate() time.Time {
 	// define a date range
 	start := time.Date(1940, 1, 1, 0, 0, 0, 0, time.UTC)
 	end := time.Date(2005, 12, 31, 0, 0, 0, 0, time.UTC)

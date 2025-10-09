@@ -29,3 +29,28 @@ func InsertDirectors(pool *pgxpool.Pool, dirs *[]factories.Director) error {
 
 	return nil
 }
+
+func InsertMovies(pool *pgxpool.Pool, movies *[]factories.Movie) error {
+	sql := `
+		INSERT INTO movies (id, movie_name, movie_length, movie_lang, release_date, age_certificate, director_id)
+		VALUES ($1, $2, $3, $4, $5, $6, $7)
+	`
+
+	for _, m := range *movies {
+		_, err := pool.Exec(context.Background(), sql,
+			m.ID,
+			m.MovieName,
+			m.MovieLength,
+			m.MovieLang,
+			m.ReleaseDate,
+			m.AgeCertificate,
+			m.DirectorID,
+		)
+
+		if err != nil {
+			return err
+		}
+	}
+
+	return nil
+}
