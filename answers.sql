@@ -197,12 +197,34 @@ select
 from directors d
 join dir_earnings de
 	on d.id = de.id
-where de.total_earnings > 1000.00 -- 1000 here bc none have 500 mil in my data
+where de.total_earnings > 1000.00; -- 1000 here bc none have 500 mil in my data
 
 
 
 -- List actors who have appeared in more than one movie.
+select 
+	concat_ws(' ', first_name, last_name) as actor,
+	count(*) as movie_count
+from actors a
+join movies_actors ma
+	on a.id = ma.actor_id
+-- group by actor (technically not sql standard. should group by first_name, last_name)
+group by first_name, last_name
+having count(*) > 1;
+
+
+
+
 -- For each movie, show a comma-separated list of actors in it.
+select 
+	m.movie_name,
+	string_agg(concat_ws(' ', a.first_name, a.last_name), ', ') as actors
+from movies m
+join movies_actors ma
+	on m.id = ma.movie_id
+join actors a 
+	on ma.actor_id = a.id
+group by m.movie_name;
 
 -- ### Optional / creative challenges
 -- Find movies where the director and an actor share the same last name.
