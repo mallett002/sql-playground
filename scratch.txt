@@ -1,0 +1,722 @@
+Directors and their movies:
+
+1. Steven Spielberg
+	10 - Saving Private Ryan (1998)
+	10 - Raiders of the Lost Ark (1981)
+	10 - E.T. (1982)
+	10 - Catch Me If You Can (2002)
+	10 - Jaws (1975)
+	9 - Indiana Jones and the Last Crusade (1989)
+	9 - Close Encounters of the Third Kind (1977)
+	8.5 - Minority Report (2002)
+	8.5 - Schindler's List (1993)
+	8.5 - Bridge of Spies (2015)
+	8 - Indiana Jones and the Temple of Doom (1984)
+	8 - A.I. Artificial Intelligence (2001)
+	8 - The Adventures of Tintin (2011)
+	7 - Jurassic Park (1993)
+	7 - Lincoln (2012)
+	6 - Indiana Jones and the Kingdom (2008)
+	5 - The Lost World: Jurrasic Park (1997)
+Avg. 8.4
+
+2. Stanley Kubrick
+	9 - A Clockwork Orange (1971)
+	9 - Full Metal Jacket (1987)
+	8.5 - Paths of Glory (1957)
+	8.5 - The Shining (1980)
+	8 - Lolita (1962)
+	7.5 - Eyes Wide Shut (1999)
+	7 - Spartacus (1960)
+	6 - Dr. Strangelove (1964)
+	6- Barry Lyndon (1975)
+	6 - 2001: A Space Odyssey (1968)
+Avg. 7.6
+
+3. Martin Scorsese
+	10 - The Departed (2006)
+	10 - The Wolf of Wall Street (2013)
+	10 - Taxi Driver (1976)
+	10 - Goodfellas (1990)
+	10 - The Irishman (2019)
+	10 - Raging Bull (1980)
+	9 - Silence (2016)
+	9 - Shutter Island (2010)
+	8.5 - The King of Comedy (1983)
+	8 - Hugo (2011)
+	8 - The Aviator (2004)
+	7.5 - Casino (1995)
+	7.5 - Gangs of New York (2002)
+	7.5 - Cape Fear (1991)
+	6 - Mean Streets (1973)
+	5 - Who's That Knocking at My Door (1967)
+	5 - Boxcar Bertha (1972)
+Avg. 8.3
+
+4. M. Night Shyamalan
+	9 - The Sixth Sense (1999)
+	8 - Spilt (2017)
+	8 - Signs (2002)
+	7 - Unbreakable (2000)
+	5 - The Village (2004)
+	2.5 - The Last Airbender (2010)
+	2 - After Earth (2013)
+	1 - Lady in the Water (2006)
+	0 - The Happening (2008)
+Avg. 4.7
+5. Paul Thomas Anderson
+	10 - Magnolia (1999)
+	10 - Phantom Thread (2017)
+	10 - Punch-Drunk Love (2002)
+	10- Boogie Nights (1997)
+	9 - There Will Be Blood (2007)
+	8.5 - Hard Eight (1996)
+	8 - The Master (2012)
+	5.5 - Inherent Vice (2014)
+Avg. 8.9
+
+6. Paul Greengrass
+	10 - United 93 (2006)
+	10 - The Bourne Ultimatum (2007)
+	10 - Captain Phillips (2013)
+	9 - The Bourne Supremacy (2004)
+	7.5 - Jason Bourne (2016)
+Avg. 9.3
+
+7. Christopher Nolan
+	10 - The Dark Knight (2008)
+	10 - Inception (2010)
+	9 - Memento (2000)
+	9 - Interstellar (2014)
+	9 - Batman Begins (2005)
+	8.5 - Dunkirk (2017)
+	8 - The Dark Knight Rises (2012)
+	8 - The Prestige (2006)
+Avg. 8.9
+
+8. Joel Coen
+	10 - No Country for Old Men (2007)
+	10 - The Big Lebowski (1998)
+	8.5 - True Grit (2010)
+	8 - Barton Fink (1991)
+	8 - O Brother Where Art Thou? (2000)
+	8 - Fargo (1996)
+	8 - Blood Simple (1984)
+	7.5- Burn After Reading (2008)
+	7.5 - The Ballad of Buster Scruggs (2018)
+	7 - A Serious Man (2009)
+	6 - Hail Caesar (2016)
+Avg. 8
+
+9. David Fincher
+	10 - The Social Network (2010)
+	9 - Gone Girl (2014)
+	9 - Fight Club (1999)
+	9 - Zodiac (2007)
+	8.5 - Se7en (1995)
+	8 - The Girl with the Dragon Tattoo (2011)
+	7.5 - The Game (1997)
+	7 - The Curious Case of Benjamin Button (2008)
+Avg. 8.5
+
+10. Shane Black
+	9 - Kiss Kiss Bang Bang (2005)
+	9 - The Nice Guys (2016)
+	7 - Iron Man 3 (2013)
+Avg. 8.3
+
+11. Robert Zemeckis
+	10 - Back to the Future (1985)
+	10 - Forrest Gump (1994)
+	10 - Who Framed Roger Rabbit (1988)
+	8.5 - Back to the Future Part II (1989)
+	8.5 - Cast Away (2000)
+	8 - Back to the Future Part III (1990)
+	7 - The Polar Express (2004)
+	7 - The Walk (2015)
+	6.5 - A Christmas Carol (2009)
+Avg. 8.4
+
+12. Jon Favreau
+	9 - The Jungle Book (2016)
+	8 - Iron Man (2008)
+	8 - Elf (2003)
+	7.5 - Zathura (2005)
+	6 - Iron Man 2 (2010)
+Avg. 7.7
+
+13. J.J. Abrams
+	8.5 - Super 8 (2011)
+	8 - Star Trek (2009)
+	8 - Star Wars: The Force Awakens (2015)
+	7.5 - Mission Impossible III (2006)
+	3 - Star Wars: The Rise of Skywalker (2019)
+Avg. 7
+
+14. Doug Liman
+	8 - The Bourne Identity (2002)
+	7.5 - Edge of Tomorrow (2014)
+	7 - Mr. and Mrs. Smith (2005)
+Avg. 7.5
+
+15. Quentin Tarantino
+	9 - Django Unchained (2012)
+	8.5 - Reservoir Dogs (1992)
+	8 - Pulp Fiction (1994)
+	8 - Once Upon a Time in.. Hollywood (2019)
+	7.5 - Jackie Brown (1997)
+	7.5 - The Hateful Eight (2015)
+	7.5 - Kill Bill Vol. 2 (2004)
+	7.5 - Inglorious Bastards (2009)
+	7 - Kill Bill Vol. 1 (2003)
+Avg. 7.8
+
+16. Ridley Scott
+8.5 - The Martian (2015)
+8 - Prometheus (2012)
+5 - Blade Runner (1982)
+5 - The Counselor (2013)
+Avg. 6.6
+
+17. Robert Rodriguez
+8 - Sin City (2005)
+7 - From Dusk Til Dawn (1996)
+7 - Spy Kids (2001)
+5 - Spy Kids: Island of Lost Dreams (2002)
+4 - Spy Kids: Game Over (2003)
+4 - The Adventures of Shark Boy and Lava Girl (2005)
+Avg. 5.8
+
+18. Michael Bay
+7.5 - Transformers (2007)
+7 - The Rock (1996)
+6 - 13 Hours: The Secret Soldiers of Benghazi (2016)
+5.5 - Transformers: Dark of the Moon (2011)
+5 - Armageddon (1998)
+5 - Bad Boys 2 (2003)
+4 - Bad Boys (1995)
+4 - Pain & Gain (2013)
+3 - Transformers: Revenge of the Fallen (2009)
+2.5 - Transformers: Age of Extinction (2014)
+Avg. 5
+
+19. Dennis Dugan
+7 - Happy Gilmore (1996)
+6 - The Benchwarmers (2006)
+6 - Big Daddy (1999)
+5 - Grown Ups (2010)
+4 - Just Go With It (2011)
+2.5 - You Don't Mess With the Zohan (2008)
+2 - Grown Ups 2 (2013)
+0 - Jack & Jill (2011)
+Avg. 4.1
+
+20. Peter Segal
+7.5 - Get Smart (2008)
+7 - Tommy Boy (1995)
+7 - The Longest Yard (2005)
+7 - Anger Management (2003)
+7 - 50 First Dates (2004)
+Avg. 7.1
+
+21. Jay Roach
+8 - Austin Powers in Goldmember (2002)
+7.5 - Meet the Parents (2000)
+7 - Austin Powers: The Spy Who Shagged Me (1999)
+6.5 - Austin Powers: International Man of Mystery (1997)
+5 - Meet the Fockers (2004)
+5 - Dinner For Schmucks (2010)
+Avg. 6.5
+
+22. Alfonso Cuarón
+10 - Gravity (2013)
+10 - Children of Men (2006)
+8.5 - Harry Potter and the Prisoner of Azkaban (2004)
+4.5 - Roma (2018)
+Avg. 8.3
+
+23. David Yates
+10 - Harry Potter and the Deathly Hallows Part 2 (2011)
+9 - Harry Potter and the Half-Blood Prince (2009)
+8 - Harry Potter and the Deathly Hallows Part 1 (2010)
+8 - Harry Potter and the Order of the Pheonix (2007)
+6 - Fantastic Beasts and Where to Find Them (2016)
+Avg. 8.2
+
+24. Wes Anderson
+10 - Moonrise Kingdom (2012)
+9 - The Grand Budapest (2014)
+9 - Rushmore (1998)
+8.5 - The Royal Tenenbaums (2001)
+8 - Isle of Dogs (2018)
+8 - Fantastic Mr. Fox (2009)
+7.5 - The Life Aquatic With Steve Zissou (2004)
+Avg. 8.6
+
+25. Damien Chazelle
+10 - Whiplash (2014)
+10 - La La Land (2016)
+Avg. 10
+
+26. Marc Webb
+10 - 500 Days of Summer (2009)
+5 - The Amazing Spider-Man (2012)
+4 - The Amazing Spider-Man 2 (2014)
+Avg. 6.3
+
+27. David O. Russell
+8.5 - American Hustle (2013)
+7.5 - Three Kings (1999)
+4 - Joy (2015)
+Avg. 6.7
+
+28. Todd Phillips
+9.5 - Joker (2019)
+7.5 - The Hangover (2009)
+7.5 - War Dogs (2016)
+7 - Old School (2003)
+4- The Hangover Part II (2011)
+Avg. 7.1
+
+29. Edgar Wright
+10 - Baby Driver (2017)
+10 - Shaun of the Dead (2004)
+10 - The World's End (2013)
+9 - Scott Pilgrim vs. The World (2010)
+8 - Hot Fuzz (2007)
+Avg. 9.4
+
+30. Bryan Singer
+10 - X-Men: Days of Future Past (2014)
+7 - X2: X-Men United (2003)
+6.5 - X-Men (2000)
+6 - Superman Returns (2006)
+6 - X-Men: Apocalypse (2016)
+6 - Bohemian Rhapsody (2018)
+Avg. 6.9
+
+31. Sam Raimi
+9 - Spider-Man 2 (2004)
+8 - Spider-Man (2002)
+6 - Spider-Man 3 (2007)
+Avg. 7.7
+
+32. Adam McKay
+8 - Step Brothers (2008)
+8 - The Other Guys (2010)
+8 - Talladega Nights (2006)
+8 - Anchorman (2004)
+8 - The Big Short (2015)
+7.5 - Anchorman 2: The Legend Continues (2013)
+7 - Vice (2018)
+Avg. 7.8
+
+33. Francis Ford Coppola
+9 - The Godfather Part II (1974)
+9 - Apocalypse Now (1979)
+9 - The Conversation (1974)
+8.5 - The Godfather (1972)
+7.5 - The Outsiders (1983)
+5 - The Rainmaker (1997)
+Avg. 8
+
+34. Martin McDonagh
+9 - In Bruges (2008)
+9 - Three Billboards Outside Ebbing, Missouri (2017)
+8 - Seven Psychopaths (2012)
+Avg. 8.7
+
+35. Shawn Levy
+6.5 - Big Fat Liar (2002)
+6 - Night at the Museum (2006)
+6 - Date Night (2010)
+5.5 - Real Steel (2011)
+5 - The Pink Panther (2006)
+5 - Cheaper by the Dozen (2003)
+4 - Night at the Museum: Battle of the Smithsonian (2009)
+Avg. 5.6
+
+36. Walt Becker
+6 - Wild Hogs (2007)
+6 - Van Wilder (2002)
+5 - Old Dogs (2009)
+Avg. 5.7
+
+37. Steven Soderbergh
+8 - Magic Mike (2012)
+8 - Ocean's Eleven (2001)
+6.5 - Contagion (2011)
+6.5 - Haywire (2011)
+6 - Traffic (2000)
+Avg. 7
+
+38. Mel Brooks
+9 - Blazing Saddles (1974)
+8 - The Producers (1968)
+7.5 - Young Frankenstein (1974)
+Avg. 8.2
+
+39. James Wan
+7.5 - Insidious (2010)
+7.5 - Saw (2004)
+7.5 - Furious 7 (2015)
+6 - The Conjuring (2013)
+4 - Aquaman (2018)
+Avg. 6.5
+
+40. F. Gary Gray
+8.5 - Straight Outta Compton (2015)
+7 - The Italian Job (2003)
+6 - Law Abiding Citizen (2009)
+5 - The Fate of the Furious (2017)
+Avg. 6.6
+
+41. Matt Reeves
+10 - War for the Planet of the Apes (2017)
+10 - Dawn of the Planet of the Apes (2014)
+8 - Cloverfield (2008)
+Avg. 9.3
+
+42. Darren Lynn Bousman
+6 - Saw II (2005)
+5 - Saw IV (2007)
+5 - Saw III (2006)
+Avg. 5.3
+
+43. Tim Burton
+9 - Ed Wood (1994)
+8.5 - Sweeny Todd and the Demon Barber of Fleet Street (2007)
+8 - Batman Returns (1992)
+7.5 - Pee-wee's Big Adventure (1985)
+7 - Batman (1989)
+5.5 - Sleepy Hollow (1999)
+5 - Charlie and the Chocolate Factory (2005)
+5 - Alice in Wonderland (2010)
+Avg. 6.9
+
+44. James Mangold
+10 - Logan (2017)
+8 - Walk the Line (2005)
+7 - The Wolverine (2013)
+5 - Knight and Day (2010)
+Avg. 7.5
+
+45. Denis Villeneuve
+10 - Prisoners (2013)
+10 - Blade Runner 2049 (2017)
+9 - Arrival (2016)
+8.5 - Sicario (2015)
+8 - Enemy (2013)
+Avg. 9.1
+
+46. Zack Snyder
+7.5 - Man of Steel (2013)
+7.5 - 300 (2007)
+5 - Batman vs. Superman: Dawn of Justice (2016)
+5 - Sucker Punch (2011)
+Avg. 6.3
+
+47. Tom Shadyac
+7.5 - Liar Liar (1997)
+7 - Bruce Almighty (2003)
+6 - Ace Ventura: Pet Detective (1994)
+Avg. 6.8
+
+48. Gore Verbinski
+8 - Pirates of the Caribbean: The Curse of the Black Pearl (2003)
+7.5 - Pirates of the Caribbean: Dead Man's Chest (2006)
+7.5 - Rango (2011)
+6.5 - Pirates of the Caribbean: At World's End (2007)
+5 - The Lone Ranger (2013)
+Avg. 6.9
+
+49. Clint Eastwood
+8.5 - Gran Torino (2008)
+8 - Mystic River (2003)
+7.5 - American Sniper (2014)
+7 - Sully (2016)
+5 - Letters From Iwo Jima (2006)
+Avg. 7.2
+
+50. Frank Coraci
+7.5 - The Waterboy (1998)
+4 - Click (2006)
+4 - The Ridiculous Six (2015)
+2 - Zookeeper (2011)
+Avg. 4.4
+
+51. Tony Scott
+8 - Deja Vu (2006)
+7 - Man on Fire (2004)
+7 - Enemy of the State (1998)
+6 - Unstoppable (2010)
+5 - The Taking of Pelham 123 (2009)
+Avg. 6.6
+
+52. Steven Brill
+6 - Drillbit Taylor (2008)
+5.5 - Mr. Deeds (2002)
+4 - The Do-Over (2016)
+Avg. 5.2
+
+53. Chris Columbus
+8 - Mrs. Doubtfire (1993)
+7.5 - Home Alone (1990)
+7 - Harry Potter and the Sorcerer's Stone (2001)
+6 - Home Alone 2: Lost in New York (1992)
+6 - Harry Potter and the Chamber of Secrets (2002)
+4 - Percy Jackson & the Olympians: The Lightning Thief (2010)
+3 - Pixels (2015)
+Avg. 5.9
+
+54. Andrew Adamson
+9 - Shrek 2 (2004)
+8 - Shrek (2001)
+7.5 - The Chronicles of Narnia: The Lion, the Witch and the Wardrobe (2005)
+Avg. 8.2
+
+55. Pete Docter
+10 - Up (2009)
+10 - Inside Out (2015)
+10 - Monsters, Inc. (2001)
+Avg. 10
+
+56. Ryan Coogler
+9.5 - Creed (2015)
+9.5 - Fruitvale Station (2013)
+7 - Black Panther (2018)
+Avg. 8.7
+
+57. Ron Howard
+9 - Rush (2013)
+8 - Apollo 13 (1995)
+4 - Willow (1986)
+3 - Far and Away (1992)
+Avg. 6
+
+58. Andrew Stanton
+10 - WALL-E (2008)
+10 - Finding Nemo (2003)
+7 - Finding Dory (2016)
+Avg. 9
+
+59. Pierre Coffin
+7.5 - Despicable Me (2010)
+7 - Despicable Me 2 (2013)
+6 - Minions (2015)
+4 - Despicable Me 3 (2017)
+Avg. 6.1
+
+60. Tom McGrath
+8 - Madagascar (2005)
+7.5 - Madagascar: Escape 2 Africa (2008)
+7 - Megamind (2010)
+3 - The Boss Baby (2017)
+Avg. 6.4
+
+61. Carlos Saldanha
+8 - Ice Age (2002)
+7.5 Ice Age: The Meltdown (2006)
+6 - Rio (2011)
+5 - Ice Age: Dawn of the Dinosaurs (2009)
+Avg. 6.9
+
+62. John Lasseter
+10 - Toy Story (1995)
+10 - Toy Story 2 (1999)
+8 - A Bug's Life (1998)
+7.5 - Cars (2006)
+4 - Cars 2 (2011)
+Avg. 7.9
+
+63. Conrad Vernon
+8.5 - Shrek 2 (2004)
+6 - Sausage Party (2016)
+5 - Monsters vs. Aliens (2009)
+Avg. 6.5
+
+64. Phil Lord
+10 - The Lego Movie (2014)
+8.5 - 21 Jump Street (2012)
+8.5 - 22 Jump Street (2014)
+7.5 - Cloudy with a Chance of Meatballs (2009)
+Avg. 8.6
+
+65. Christopher Miller
+10 - The Lego Movie (2014)
+8.5 - 21 Jump Street (2012)
+8.5 - 22 Jump Street (2014)
+7.5 - Cloudy with a Chance of Meatballs (2009)
+Avg. 8.6
+
+66. Mike Mitchell
+7.5 - The Lego Movie 2: The Second Part (2019)
+7 - The Spongebob Movie: Sponge Out of Water (2015)
+6.5 - Sky High (2005)
+6 - Shrek Forever After (2010)
+0 - Alvin and the Chimpmunks: Chipwrecked (2011)
+Avg. 5.4
+
+67. James Gunn
+9.5 - Guardians of the Galaxy (2014)
+7.5 - Guardians of the Galaxy Vol. 2 (2017)
+6 - Super (2011)
+Avg. 7.7
+
+68. Anthony Russo
+9 - Avengers: Infinity War (2018)
+9 - Captain America: Civil War (2016)
+9 - Captain America: The Winter Soldier (2014)
+7 - Avengers: Endgame (2019)
+Avg. 8.5
+
+69. Joe Russo
+9 - Avengers: Infinity War (2018)
+9 - Captain America: Civil War (2016)
+9 - Captain America: The Winter Soldier (2014)
+7 - Avengers: Endgame (2019)
+Avg. 8.5
+
+70. Brad Bird
+9 - The Incredibles (2004)
+9 - Ratatouille
+9 - Mission Impossible: Ghost Protocol (2011)
+7.5 - The Incredibles 2 (2018)
+7.5 - Tomorrowland (2015)
+Avg. 8.4
+
+71. Peyton Reed
+7.5 - Ant-Man (2015)
+5.5 - Ant-Man and the Wasp (2018)
+5 - Yes Man (2008)
+Avg. 6
+
+72. Joe Johnston
+7 - Jumanji (1995)
+6 - Captain America: The First Avenger (2011)
+5 - Jurassic Park III (2001)
+Avg. 6
+
+73. Rob Reiner
+9 - A Few Good Men (1992)
+8 - When Harry Met Sally... (1989)
+8 - The Princess Bride (1987)
+7 - The Bucket List (2007)
+Avg. 8
+
+74. Matthew Vaughn
+9 - Kingsman: The Secret Service (2015)
+8 - Stardust (2007)
+7.5 - X-Men: First Class (2011)
+Avg. 8.2
+
+75. Sam Mendes
+10 - Road to Perdition (2002)
+9 - Skyfall (2012)
+8 - Jarhead (2005)
+8 - 1917 (2019)
+7 - Spectre (2015)
+7 - Revolutionary Road (2008)
+6 - American Beauty (1999)
+Avg. 7.9
+
+76. Spike Lee
+8.5 - Do the Right Thing (1989)
+8 - Malcolm X (1992)
+7.5 - Blackkklansman (2018)
+7.5 - Inside Man (2006)
+7 - Da 5 Bloods (2020)
+6.5 - She's Gotta Have It (1986)
+Avg. 7.4
+
+77. Peter Jackson
+8 - King Kong (2005)
+8 - The Lord of the Rings: The Return of the King (2003)
+7.5 - The Lord of the Rings: The Two Towers
+7.5 - The Hobbit: An Unexpected Journey (2012)
+7 - The Lord of the Rings: The Fellowship of the Ring
+6 - The Hobbit: The Desolation of Smaug (2013)
+Avg. 7.3
+
+78. Jordan Peele
+9 - Get Out (2017)
+7 - Us (2019)
+Avg. 8
+
+79. Aaron Seltzer
+2.5 - Meet the Spartans (2008)
+2 - Epic Movie (2007)
+2 - Date Movie (2006)
+1 - Disaster Movie (2008)
+Avg. 1.9
+
+80. Sidney Lumet
+10 - Dog Day Afternoon (1975)
+10- Network (1976)
+9 - 12 Angry Men (1957)
+7 - Serpico (1973)
+Avg. 9
+
+81. Mike Nichols
+9 - The Birdcage (1996)
+8.5 - The Graduate (1967)
+5 - Who's Afraid of Virginia Woolf? (1966)
+Avg. 7.5
+
+82. Hayao Miyazaki
+8 - My Neighbor Totoro (1988)
+7 - Spirited Away (2001)
+7 - Kiki's Delivery Service (1989)
+7 - Howl's Moving Castle (2004)
+Avg. 7.3
+
+83. Rob Letterman
+5 - Monsters vs. Aliens (2009)
+5 - Shark Tale (2004)
+2 - Gulliver's Travels (2010)
+Avg. 4
+
+84. Justin Lin
+7.5 - Fast Five (2011)
+6 - Fast & Furious 6 (2013)
+5.5 - Fast & Furious (2009)
+4 - The Fast and the Furious: Tokyo Drift (2006)
+Avg. 5.8
+
+85. John Singleton
+8 - Boyz n the Hood (1991)
+7 - Four Brothers (2005)
+3 - 2 Fast 2 Furious (2003)
+Avg. 6
+
+86. Barry Sonnenfeld
+6.5 - RV (2006)
+6- Men in Black (1997)
+6 - Men in Black II (2002)
+5 - Men in Black 3 (2012)
+Avg. 5.9
+
+87. Chad Stahelski
+8 - John Wick (2014)
+7 - John Wick: Chapter 3 - Parabellum (2019)
+7 - John Wick: Chapter 2 (2017)
+Avg. 7.3
+
+88. George Lucas
+8 - Star Wars: Episode IV - A New Hope (1977)
+6.5 - Star Wars: Episode III - Revenge of the Sith (2005)
+4 - Star Wars: Episode I - The Phantom Menace (1999)
+3 - Star Wars: Episode II - Attack of the Clones (2002)
+Avg. 5.4
+
+89. Dean DeBlois
+8.5 - How to Train Your Dragon 2 (2014)
+8 - How to Train Your Dragon (2010)
+7.5 - How to Train Your Dragon: The Hidden World (2019)
+Avg. 8
+
+90. Paul Feig
+6 - Bridesmaids (2011)
+5 - A Simple Favor (2018)
+3 - Spy (2015)
+Avg. 4.7
