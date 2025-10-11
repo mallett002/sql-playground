@@ -226,9 +226,49 @@ join actors a
 	on ma.actor_id = a.id
 group by m.movie_name;
 
--- ### Optional / creative challenges
+-- ### Creative Challenges
 -- Find movies where the director and an actor share the same last name.
+select 
+	movie_name,
+	d.last_name,
+	a.last_name
+from movies m
+join directors d on m.director_id = d.id
+join movies_actors ma on m.id = ma.movie_id
+join actors a on ma.actor_id = a.id
+where a.last_name = d.last_name;
+
+
+
 -- List movies that have no revenue records.
+-- add one in there to see that it works
+INSERT INTO movies (movie_name, movie_length, movie_lang, release_date, age_certificate, director_id)
+VALUES ('Encanto', 127, 'English', '2022-06-11', 'PG-13', (SELECT id FROM directors WHERE last_name='Spielberg'));
+
+select * from movies m
+left join movie_revenues mr on m.id = mr.movie_id
+where mr.movie_id is null;
+
+
+
 -- Find all actors born in the 1960s who appeared in movies released after 2000.
+select concat_ws(' ', a.first_name, a.last_name) from actors a
+join movies_actors ma on a.id = ma.actor_id
+join movies m on m.id = ma.movie_id
+where a.date_of_birth between '1960-01-01' and '1969-12-31'
+and m.release_date >= '2000-01-01';
+
+
 -- Show the average revenue per director.
+select 
+	concat_ws(' ', d.first_name, d.last_name) as director_name,
+	round(avg(mr.domestic_takings + mr.international_takings), 2) as average_rev
+from directors d
+join movies m on d.id = m.director_id
+join movie_revenues mr on m.id = mr.movie_id
+group by d.id
+order by average_rev desc;
+
+
+
 -- List all movies along with the number of actors in each.
